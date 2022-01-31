@@ -1,0 +1,72 @@
+* {
+  --colour-blue: #3897d3;
+  --colour-light-gray: #e2e2e2;
+  --font-colour: black;
+  --background-colour: white;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+} /*16px*/
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: var(--background-colour);
+  color: var(--font-colour);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.383rem;
+}
+
+h2 {
+  font-size: 1.296rem;
+}
+
+h3 {
+  font-size: 1.215rem;
+}
+
+h4 {
+  font-size: 1.138rem;
+}
+
+h5 {
+  font-size: 1.067rem;
+}
+
+small,
+.text_small {
+  font-size: 0.937rem;
+}
+
+.text_very_small {
+  font-size: 0.878rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
